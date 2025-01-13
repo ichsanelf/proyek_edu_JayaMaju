@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 #drive url for model
-url = https://drive.google.com/file/d/17WbUtbbR6xt1vjcUZK4Go2vEZaL2vYOn/view?usp=sharing
+url = "https://drive.google.com/file/d/17WbUtbbR6xt1vjcUZK4Go2vEZaL2vYOn/view?usp=sharing"
 
 #download model from drive
 output = "RandomForest_model.joblib"
