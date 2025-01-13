@@ -45,7 +45,7 @@ col1, col2 = st.columns(2)
 with col1:
     curricular_2nd_sem_approved = st.number_input("Curricular Second Semester Approved", min_value=0, max_value=30, step=1)
 with col2:
-    curricular_2nd_sem_grade = st.number_input("Curricular Secod Semester Grade", min_value=0, max_value=30, step=1)
+    curricular_2nd_sem_grade = st.number_input("Curricular Second Semester Grade", min_value=0, max_value=30, step=1)
 
 def map_YesNo(value):
     return 1 if value == "Yes" else 0
