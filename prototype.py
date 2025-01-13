@@ -20,7 +20,7 @@ scaler = joblib.load(scaler_output)
 
 
 st.markdown( """ <style> .title { text-align: center; } </style> """, unsafe_allow_html=True )
-st.markdown('<h1 class="title">Jaya Jaya Maju</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="title">Jaya Jaya Institut</h1>', unsafe_allow_html=True)
 st.markdown('<h1 class="title">Prediksi Status Siswa</h1>', unsafe_allow_html=True)
 
 col1, col2 = st.columns(2)
