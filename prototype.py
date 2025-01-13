@@ -4,9 +4,12 @@ import numpy as np
 
 # Load the saved model
 model = joblib.load('model/RandomForest_model.joblib')
+st.markdown( """ <style> .title { text-align: center; } </style> """, unsafe_allow_html=True )
 
 
-st.title("Jaya Jaya Maju - Prediksi Status Siswa")
+st.markdown('<h1 class="title">Simple Prediction App</h1>', unsafe_allow_html=True)
+st.title("Jaya Jaya Maju")
+st.title("Prediksi Status Siswa")
 
 curricular_1st_sem_approved = st.number_input("Curricular First Semester Approved", min_value=0, max_value=30, step=1)
 curricular_1st_sem_grade = st.number_input("Curricular First Semester Grade", min_value=0, max_value=30, step=1)
