@@ -6,7 +6,7 @@ import numpy as np
 model = joblib.load('model/RandomForest_model.joblib')
 
 
-st.title("Simple Prediction App")
+st.title("Jaya Jaya Maju - Prediksi Status Siswa")
 
 curricular_1st_sem_approved = st.number_input("Curricular First Semester Approved", min_value=0, max_value=30, step=1)
 curricular_1st_sem_grade = st.number_input("Curricular First Semester Grade", min_value=0, max_value=30, step=1)
