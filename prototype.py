@@ -31,7 +31,7 @@ with col2:
 
 col1, col2 = st.columns(2)
 with col1:
-    attend = st.selectbox("Attendance", ["Daytime", "Evening"])
+    attend = st.selectbox("Attendance(Daytime/Evening)", ["Daytime", "Evening"])
 with col2:
     age = st.number_input("Age", min_value=17, max_value=80, step=1)
 
