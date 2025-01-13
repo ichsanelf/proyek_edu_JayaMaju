@@ -31,7 +31,7 @@ with col2:
 
 col1, col2 = st.columns(2)
 with col1:
-    attend = st.selectbox("Attendance", ["Daytime", "Evening"])
+    attend = st.selectbox("Attendance", ["Yes", "No"])
 with col2:
     age = st.number_input("Age", min_value=17, max_value=80, step=1)
 
@@ -52,7 +52,8 @@ def map_YesNo(value):
 
 debtor_input = map_YesNo(debtor)
 tuition_input = map_YesNo(tuition)
-attend_input = 1 if attend == Daytime else 0
+attend_input = map_YesNo(attend)
+#attend_input = 1 if attend == Daytime else 0
 
 if st.button("Predict"):    
     input_data = np.array([[debtor_input, tuition_input, attend_input, age,
