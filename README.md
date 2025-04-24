@@ -131,7 +131,7 @@ pip install -r requirements.txt
 ## Business Dashboard
 
 **Link Dashboard** : [LookerStudio-Dashboard](https://lookerstudio.google.com/u/0/reporting/58a695dc-e1ba-4321-af0b-32f63dc25283/page/IrfcE)  
-![Local Image](ichsan-dashboard.jpg)    
+![Local Image](ichsan-dashboard.JPG)    
 
 Dashboard ini dibuat dengan menggunakan **Looker Studio**. Grafik-grafik yang terdapat pada dashboard memiliki informasi seperti:
 1. Jumlah siswa. 
@@ -157,8 +157,8 @@ disesuaikan dengan lokasi atau dir, dimana file python berada.
 streamlit run prototype.py
 ```
 
-Selain menjalankan secara lokal, bisa menggunakan link yang sudah disediakan. Jika sudah menjalankan maka akan muncul tampilan sebagai berikut:
-![Local Image](prototype.jpg)
+Selain menjalankan secara lokal, bisa menggunakan link yang sudah disediakan. Jika sudah menjalankan maka akan muncul tampilan sebagai berikut:  
+![Local Image](prototype.JPG)  
 Terdapat input:
 1. Debtor, yang berisikan opsi, **Yes** atau **No**
 2. Tuition Fees Up to Date, yang berisikan opsi, **Yes** atau **No**
